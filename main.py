@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'follow the light to find the truth'
+    return '<h3>follow the light to find the truth</h3>\n<a href="/light">Light</a>'
 
 @app.route('/name/<value>')
 def name(value):
